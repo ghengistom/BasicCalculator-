@@ -21,13 +21,13 @@ public class Calc {
 		switch (num3)
 		{
 			case 1: 
-			System.out.print("The sum is: ");
+			System.out.print("\tThe sum is: ");
 			System.out.print(num1+num2);break;
 			case 2:
-			System.out.print("The difference is: ");
+			System.out.print("\tThe difference is: ");
 			System.out.print(num1-num2);break;
 			case 3:
-			System.out.print("The product is ");
+			System.out.print("\tThe product is ");
 			System.out.printf("%d",num1*num2);break;
 				
 		}

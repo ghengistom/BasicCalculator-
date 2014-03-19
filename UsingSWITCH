@@ -1,0 +1,36 @@
+import java.util.Scanner; //gets scanner library
+public class Calc {
+	public static void main(String[] args)
+	{
+		//create a scanner to hold user input from command window
+		Scanner input = new Scanner(System.in);
+
+		int num1,
+			num2,
+			num3;
+		System.out.print("CALCULATOR Pick your 2 numbers to perform calculations ");
+		num1= input.nextInt();
+		num2= input.nextInt();
+		System.out.println("Hello, you entered ");
+		System.out.print(num1);
+		System.out.print(" and ");
+		System.out.println(num2);
+		System.out.print(" Add(1) Subtract(2) Multiply(3) ");
+		num3= input.nextInt();
+		
+		switch (num3)
+		{
+			case 1: 
+			System.out.print("The sum is: ");
+			System.out.print(num1+num2);break;
+			case 2:
+			System.out.print("The difference is: ");
+			System.out.print(num1-num2);break;
+			case 3:
+			System.out.print("The product is ");
+			System.out.printf("%d",num1*num2);break;
+				
+		}
+	}
+
+}
